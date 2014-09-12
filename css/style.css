@@ -1,11 +1,31 @@
-.header-link{
-  font-size: 20px;
+.header-link-column{
+  height: 90px;
   padding-top: 15px;
-}
+  padding-bottom: 15px;
+  background: #435a6b;
+  }
 .fixed-header{
-  height: 50px;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+.container-padding-top{
+  padding-top:90px;
+}
+.development-text{
+  padding-top: 10px;
+  font-size: 20px;
+  color: white;
+}
+.development-div{
+  height:50px;
+  background-color: grey;
+}
+.development-div:first-child{
+  border-right: 2px solid white;
 }
