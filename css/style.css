@@ -32,3 +32,11 @@ a:hover{
 .facebook-link{
   margin-right: 170px;
 }
+.name{
+  font-size:20px;
+  color:white;
+}
+.developer-text{
+ color:white;
+ font-size:15px;
+}
