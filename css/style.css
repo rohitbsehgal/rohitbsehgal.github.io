@@ -2,7 +2,7 @@
   height: 90px;
   padding-top: 15px;
   padding-bottom: 15px;
-  background: #435a6b;
+  background: #f19f0f;
   }
 .fixed-header{
   width: 100%;
@@ -57,32 +57,10 @@ a:hover{
   margin-top: 150px;
 }
 .app-store{
-  border-spacing: 15px;
-  border-top: 1px solid;
-  border-bottom: 1px solid;
+  width: 100%;
+  color: #FF3300;
 }
 .app-store:hover{
-  color: blue;
+  color: #FF3300;
   text-decoration: none;
-}
-.button{
-  border: 0;
-  background: #5786c1;
-  color: white;
-  padding: 8px 14px;
-  font-weight: bold;
-  font-size: 18px;
-  text-decoration: none;
-  display: inline-block;
-  /* needed for anchors */
-  position: relative;
-  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae, 3px 2px #3a587f, 2px 3px #4171ae, 4px 3px #3a587f, 3px 4px #4171ae, 5px 4px #3a587f, 4px 5px #4171ae, 6px 5px #3a587f, 5px 6px #4171ae;
-}
-.button:hover, .button:focus, .button.hover, .button.focus{
-  transform: translate(2px, 2px);
-  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae, 3px 2px #3a587f, 2px 3px #4171ae, 4px 3px #3a587f, 3px 4px #4171ae;
-}
-.button:active, .button.active{
-  transform: translate(4px, 4px);
-  box-shadow: 1px 0px #3a587f, 0px 1px #4171ae, 2px 1px #3a587f, 1px 2px #4171ae;
 }
