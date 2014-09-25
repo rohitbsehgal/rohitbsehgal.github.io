@@ -44,3 +44,8 @@ a:hover{
   border-radius: 5%;
   border: 2px solid grey;
 }
+.cool-iphone{
+  display: inline;
+  position: absolute;
+  width: 80%;
+}
