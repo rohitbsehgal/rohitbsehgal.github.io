@@ -59,8 +59,14 @@ a:hover{
   margin-left: 25px;
   margin-top: 150px;
 }
+.web-store{
+  color: #16a085;
+}
+.web-store:hover{
+  color: #16a085;
+  text-decoration: none;
+}
 .app-store{
-  width: 100%;
   color: #FF3300;
 }
 .app-store:hover{
