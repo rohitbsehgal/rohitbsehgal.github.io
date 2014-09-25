@@ -53,4 +53,15 @@ a:hover{
 .iphone-screen{
   position: absolute;
   z-index: 100;
+  margin-left: 25px;
+  margin-top: 150px;
+}
+.app-store{
+  border-spacing: 15px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+.app-store:hover{
+  color: blue;
+  text-decoration: none;
 }
