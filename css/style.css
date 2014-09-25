@@ -5,9 +5,6 @@
   background: #435a6b;
   }
 .fixed-header{
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
 }
 a:hover{
@@ -41,6 +38,7 @@ a:hover{
  font-size:15px;
 }
 .ios-app-card{
+  margin-top: 10px;
   width: 50%;
   height: 250px;
   border-radius: 5%;
