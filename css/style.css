@@ -2,7 +2,7 @@
   margin-right: 15px;
 }
 .header-link-column{
-  height: 90px;
+  height: 190px;
   padding-top: 15px;
   padding-bottom: 15px;
   background: #f19f0f;
@@ -58,6 +58,12 @@ a:hover{
   z-index: 100;
   margin-left: 25px;
   margin-top: 150px;
+  height: 650px;
+  width: 70%;
+}
+.iphone-color{
+  color: #007aff;
+  font-family: "Arimo", sans-serif;
 }
 .web-store{
   color: #16a085;
@@ -67,9 +73,120 @@ a:hover{
   text-decoration: none;
 }
 .app-store{
-  color: #FF3300;
+  color: white;
+  text-decoration: underline;
 }
 .app-store:hover{
-  color: #FF3300;
-  text-decoration: none;
+  color: white;
+  text-decoration: underline;
 }
+.image-from-facebook{
+  border-radius: 50%;
+  border: 1px solid white;
+  float: left;
+  height: 150px;
+  margin-top: -10px;
+}
+.float-right{
+  float: right;
+  margin-top: 40px;
+}
+.white-text{
+  font-size: 25px;
+  color: white;
+  margin-top:40px;
+}
+.iphone-messages-screen{
+  height: 650px;
+  position: absolute;
+  margin-left: 20px;
+}
+/////// IOS CHAT BUBBLES //////////
+body {
+  font-family: "Helvetica Neue";
+  font-size: 20px;
+  font-weight: normal;
+}
+
+section {
+  max-width: 450px;
+  margin: 400px auto;
+}
+section div {
+  max-width: 255px;
+  word-wrap: break-word;
+  margin-bottom: 5px;
+  line-height: 24px;
+}
+
+.clear {
+  clear: both;
+}
+
+.from-me {
+  position: relative;
+  padding: 10px 20px;
+  color: white;
+  background: #0B93F6;
+  border-radius: 25px;
+  float: right;
+  margin-right: 25px;
+  z-index: 100;
+}
+.from-me:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: -2px;
+  right: -7px;
+  height: 20px;
+  border-right: 20px solid #0B93F6;
+  border-bottom-left-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+.from-me:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  bottom: -2px;
+  right: -56px;
+  width: 26px;
+  height: 20px;
+  background: white;
+  border-bottom-left-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+
+.from-them {
+  position: relative;
+  padding: 10px 20px;
+  background: #E5E5EA;
+  border-radius: 25px;
+  color: black;
+  float: left;
+}
+.from-them:before {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  bottom: -2px;
+  left: -7px;
+  height: 20px;
+  border-left: 20px solid #E5E5EA;
+  border-bottom-right-radius: 16px 14px;
+  -webkit-transform: translate(0, -2px);
+}
+.from-them:after {
+  content: "";
+  position: absolute;
+  z-index: 3;
+  bottom: -2px;
+  left: 4px;
+  width: 26px;
+  height: 20px;
+  background: white;
+  border-bottom-right-radius: 10px;
+  -webkit-transform: translate(-30px, -2px);
+}
+
+////////// IOS CHAT BUBBLES ///////////
