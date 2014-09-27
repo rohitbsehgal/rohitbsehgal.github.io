@@ -1,59 +1,72 @@
-.row{
+.row {
   margin-right: 15px;
 }
-.header-link-column{
+
+.header-link-column {
   height: 190px;
   padding-top: 15px;
   padding-bottom: 15px;
   background: #f19f0f;
-  }
-.fixed-header{
+}
+
+.fixed-header {
   width: 100%;
 }
-a:hover{
+
+a:hover {
   text-decoration: none;
   color: white;
 }
-.container-padding-top{
-  padding-top:10px;
+
+.container-padding-top {
+  padding-top: 10px;
 }
-.development-text{
+
+.development-text {
   padding-top: 10px;
   font-size: 20px;
   color: white;
 }
-.development-div{
-  height:50px;
+
+.development-div {
+  height: 50px;
   background-color: grey;
 }
-.development-div:first-child{
+
+.development-div:first-child {
   border-right: 2px solid white;
 }
-.facebook-link{
+
+.facebook-link {
   margin-right: 170px;
 }
-.name{
-  font-size:20px;
-  color:white;
+
+.name {
+  font-size: 20px;
+  color: white;
 }
-.developer-text{
- color:white;
- font-size:15px;
+
+.developer-text {
+  color: white;
+  font-size: 15px;
 }
-.ios-app-card{
+
+.ios-app-card {
   margin-top: 10px;
   width: 50%;
   height: 250px;
   border-radius: 5%;
   border: 2px solid grey;
 }
-.cool-iphone{
+
+.cool-iphone {
   display: inline;
   position: absolute;
   width: 80%;
   z-index: 10;
 }
-.iphone-screen{
+
+.iphone-screen {
   position: absolute;
   z-index: 100;
   margin-left: 25px;
@@ -61,47 +74,55 @@ a:hover{
   height: 650px;
   width: 70%;
 }
-.iphone-color{
+
+.iphone-color {
   color: #007aff;
   font-family: "Arimo", sans-serif;
 }
-.web-store{
+
+.web-store {
   color: #16a085;
 }
-.web-store:hover{
+
+.web-store:hover {
   color: #16a085;
   text-decoration: none;
 }
-.app-store{
+
+.app-store {
   color: white;
   text-decoration: underline;
 }
-.app-store:hover{
+
+.app-store:hover {
   color: white;
   text-decoration: underline;
 }
-.image-from-facebook{
+
+.image-from-facebook {
   border-radius: 50%;
   border: 1px solid white;
   float: left;
   height: 150px;
   margin-top: -10px;
 }
-.float-right{
+
+.float-right {
   float: right;
   margin-top: 40px;
 }
-.white-text{
+
+.white-text {
   font-size: 25px;
   color: white;
-  margin-top:40px;
+  margin-top: 50px;
 }
-.iphone-messages-screen{
-  height: 650px;
+.iphone-messages-screen {
+  height: 100%;
   position: absolute;
   margin-left: 20px;
 }
-/////// IOS CHAT BUBBLES //////////
+
 body {
   font-family: "Helvetica Neue";
   font-size: 20px;
@@ -112,6 +133,7 @@ section {
   max-width: 450px;
   margin: 400px auto;
 }
+
 section div {
   max-width: 255px;
   word-wrap: break-word;
@@ -133,6 +155,7 @@ section div {
   margin-right: 25px;
   z-index: 100;
 }
+
 .from-me:before {
   content: "";
   position: absolute;
@@ -144,6 +167,7 @@ section div {
   border-bottom-left-radius: 16px 14px;
   -webkit-transform: translate(0, -2px);
 }
+
 .from-me:after {
   content: "";
   position: absolute;
@@ -165,6 +189,7 @@ section div {
   color: black;
   float: left;
 }
+
 .from-them:before {
   content: "";
   position: absolute;
@@ -176,6 +201,7 @@ section div {
   border-bottom-right-radius: 16px 14px;
   -webkit-transform: translate(0, -2px);
 }
+
 .from-them:after {
   content: "";
   position: absolute;
@@ -188,5 +214,3 @@ section div {
   border-bottom-right-radius: 10px;
   -webkit-transform: translate(-30px, -2px);
 }
-
-////////// IOS CHAT BUBBLES ///////////
