@@ -1,216 +1,108 @@
-.row {
-  margin-right: 15px;
+.header-logo{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 20px;
 }
-
-.header-link-column {
-  height: 190px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: #f19f0f;
+.header-logo-rohit{
+  color: red;
 }
-
-.fixed-header {
-  width: 100%;
-}
-
-a:hover {
-  text-decoration: none;
+.header-logo-sehgal{
   color: white;
 }
-
-.container-padding-top {
-  padding-top: 10px;
-}
-
-.development-text {
-  padding-top: 10px;
-  font-size: 20px;
-  color: white;
-}
-
-.development-div {
-  height: 50px;
-  background-color: grey;
-}
-
-.development-div:first-child {
-  border-right: 2px solid white;
-}
-
-.facebook-link {
-  margin-right: 170px;
-}
-
-.name {
-  font-size: 20px;
-  color: white;
-}
-
-.developer-text {
-  color: white;
-  font-size: 15px;
-}
-
-.ios-app-card {
-  margin-top: 10px;
-  width: 50%;
-  height: 250px;
-  border-radius: 5%;
-  border: 2px solid grey;
-}
-
-.cool-iphone {
-  display: inline;
-  position: absolute;
-  width: 80%;
+.header-full{
+  background-color: rgba(27,27,27,0.9);
+  position: fixed;
+  width:101%;
   z-index: 10;
 }
-
-.iphone-screen {
-  position: absolute;
-  z-index: 100;
-  margin-left: 25px;
-  margin-top: 150px;
-  height: 650px;
-  width: 70%;
+p{
+  font-size: 100px;
 }
-
-.iphone-color {
-  color: #007aff;
-  font-family: "Arimo", sans-serif;
-}
-
-.web-store {
-  color: #16a085;
-}
-
-.web-store:hover {
-  color: #16a085;
+a:hover{
   text-decoration: none;
 }
-
-.app-store {
-  color: white;
-  text-decoration: underline;
-}
-
-.app-store:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-.image-from-facebook {
-  border-radius: 50%;
-  border: 1px solid white;
-  float: left;
-  height: 150px;
-  margin-top: -10px;
-}
-
-.float-right {
+.cl-effect-21{
+  color:white;
   float: right;
-  margin-top: 40px;
 }
-
-.white-text {
-  font-size: 25px;
-  color: white;
-  margin-top: 50px;
+.profile-content{
+  margin-top: 80px;
 }
-.iphone-messages-screen {
+.main-content1{
+  margin-top: 77px;
+  background-color: black;
+  z-index: 10;
+}
+.main-content{
+  background-color: black;
+  z-index: 10;
+}
+.main-content-row{
+  background-color: black;
   height: 100%;
-  position: absolute;
-  margin-left: 20px;
 }
-
-body {
-  font-family: "Helvetica Neue";
+.content-links > a{
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
   font-size: 20px;
-  font-weight: normal;
+  color: rgba(255,255,255,0.9);
+  width: 100%;
+  transition: 0.5s;
 }
-
-section {
-  max-width: 450px;
-  margin: 400px auto;
+.content-links > a:hover{
+  transition: 0.5s;
+  color: red;
 }
-
-section div {
-  max-width: 255px;
-  word-wrap: break-word;
-  margin-bottom: 5px;
-  line-height: 24px;
+.content-headers{
+  color: red;
+  border-bottom: 2px solid white;
+  width:100%;
 }
-
-.clear {
-  clear: both;
-}
-
-.from-me {
-  position: relative;
-  padding: 10px 20px;
+.form-headings{
   color: white;
-  background: #0B93F6;
-  border-radius: 25px;
-  float: right;
-  margin-right: 25px;
-  z-index: 100;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
 }
-
-.from-me:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  bottom: -2px;
-  right: -7px;
-  height: 20px;
-  border-right: 20px solid #0B93F6;
-  border-bottom-left-radius: 16px 14px;
-  -webkit-transform: translate(0, -2px);
+.form-responses{
+  color: white;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
 }
-
-.from-me:after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  bottom: -2px;
-  right: -56px;
-  width: 26px;
-  height: 20px;
-  background: white;
-  border-bottom-left-radius: 10px;
-  -webkit-transform: translate(-30px, -2px);
+.line-height{
+  line-height: 20px;
 }
-
-.from-them {
-  position: relative;
-  padding: 10px 20px;
-  background: #E5E5EA;
-  border-radius: 25px;
-  color: black;
-  float: left;
+.profile-picture{
+  border: 4px solid white;
+  width: 70%;
 }
-
-.from-them:before {
-  content: "";
-  position: absolute;
-  z-index: 2;
-  bottom: -2px;
-  left: -7px;
-  height: 20px;
-  border-left: 20px solid #E5E5EA;
-  border-bottom-right-radius: 16px 14px;
-  -webkit-transform: translate(0, -2px);
+.footer{
+  margin-top: 5px;
+  background-color: black;
+  height: 50px;
 }
-
-.from-them:after {
-  content: "";
-  position: absolute;
-  z-index: 3;
-  bottom: -2px;
-  left: 4px;
-  width: 26px;
-  height: 20px;
-  background: white;
-  border-bottom-right-radius: 10px;
-  -webkit-transform: translate(-30px, -2px);
+.footer-text{
+  text-align: right;
+  margin-top: 20px;
+  color: white;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+@media only screen and (max-width:671px){
+  .main-content1{
+    margin-top: 217px;
+  }
+  .header-full{
+    width:104%;
+  }
+  .header-logo{
+    font-size: 20px;
+  }
+  .cl-effect-21{
+    font-size: 12px;
+  }
+  .profile-picture{
+    border: 4px solid white;
+    width: 25%;
+  }
 }
