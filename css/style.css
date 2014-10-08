@@ -105,6 +105,12 @@ a:hover{
     border: 4px solid white;
     width: 25%;
   }
+  .main-content1{
+  width: 101%;
+}
+.main-content{
+  width: 101%;
+}
 }
 @media only screen and (max-width:767px){
   .profile-picture{
