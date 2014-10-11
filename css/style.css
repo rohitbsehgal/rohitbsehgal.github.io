@@ -131,7 +131,10 @@ a:hover{
     margin-top: 80px;
     width: 110%;
   }
-  .main-content1{
+  .main-content{
     width: 110%;
+  }
+  a{
+    margin: 0px;
   }
 }
