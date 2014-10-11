@@ -103,7 +103,6 @@ a:hover{
   }
   .header-full{
     width:104%;
-    height: 80px;
   }
   .header-logo{
     font-size: 20px;
@@ -123,6 +122,9 @@ a:hover{
 }
 }
 @media only screen and (max-width:767px){
+  .header-full{
+    position: absolute;
+  }
   .profile-picture{
     border: 4px solid white;
     width: 25%;
