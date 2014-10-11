@@ -89,15 +89,6 @@ a:hover{
   font-family: "Open Sans", sans-serif;
 }
 @media only screen and (max-width:671px){
-  .mobile-display-none{
-    display: none;
-  }
-  .header-logo-rohit{
-    display: none;
-  }
-  .header-logo-sehgal{
-    display: none;
-  }
   .main-content1{
     margin-top: 217px;
   }
