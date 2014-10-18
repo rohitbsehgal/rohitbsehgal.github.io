@@ -6,9 +6,14 @@
 }
 .header-logo-rohit{
   color: red;
+  font-size: 25px;
+  font-weight: 600;
 }
 .header-logo-sehgal{
   color: white;
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 5px;
 }
 .header-full{
   background-color: rgba(27,27,27,0.9);
