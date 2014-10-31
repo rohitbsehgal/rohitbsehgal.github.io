@@ -28,6 +28,9 @@
   float: right;
 }
 //////////END HEADER//////////
+.invisible{
+  display:none;
+}
 p{
   font-size: 100px;
 }
