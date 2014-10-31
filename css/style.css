@@ -1,3 +1,31 @@
+.header-black-background{
+  background-color:black;
+  height: 75px;
+  width:102%;
+}
+.rohit-sehgal{
+  color: white;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 0px;
+  margin-top: 25px;
+}
+.header-a{
+  margin: 30px;
+}
+.header-links{
+  width: 55px;
+  margin-top: 10px;
+}
+.header-links-github{
+  width: 65px;
+  margin-top: 5px;
+}
+.header-links-float{
+  float: right;
+}
+//////////END HEADER//////////
 .header-logo{
   font-family: "Open Sans", sans-serif;
   font-weight: 800;
@@ -35,7 +63,6 @@ a:hover{
   margin-top: 80px;
 }
 .main-content1{
-  margin-top: 77px;
   background-color: black;
   z-index: 10;
 }
@@ -49,8 +76,8 @@ a:hover{
 }
 .content-links > a{
   font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 100;
+  font-size: 30px;
   color: rgba(255,255,255,0.9);
   width: 100%;
   transition: 0.5s;
@@ -63,16 +90,23 @@ a:hover{
   color: red;
   border-bottom: 2px solid white;
   width:100%;
+  font-weight: 100;
+  font-size: 35px;
+  letter-spacing: 1px;
 }
 .form-headings{
   color: white;
   font-size: 20px;
-  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 .form-responses{
   color: white;
   font-size: 15px;
-  font-family: "Open Sans", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 .line-height{
   line-height: 20px;
