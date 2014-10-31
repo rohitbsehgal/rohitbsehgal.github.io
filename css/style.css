@@ -2,6 +2,8 @@
   background-color:black;
   height: 75px;
   width:102%;
+  position: fixed;
+  z-index: 1;
 }
 .rohit-sehgal{
   color: white;
@@ -26,29 +28,6 @@
   float: right;
 }
 //////////END HEADER//////////
-.header-logo{
-  font-family: "Open Sans", sans-serif;
-  font-weight: 800;
-  font-size: 25px;
-  margin-top: 20px;
-}
-.header-logo-rohit{
-  color: red;
-  font-size: 25px;
-  font-weight: 600;
-}
-.header-logo-sehgal{
-  color: white;
-  font-size: 25px;
-  font-weight: 600;
-  margin-left: 5px;
-}
-.header-full{
-  background-color: rgba(27,27,27,0.9);
-  position: fixed;
-  width:101%;
-  z-index: 10;
-}
 p{
   font-size: 100px;
 }
@@ -65,6 +44,7 @@ a:hover{
 .main-content1{
   background-color: black;
   z-index: 10;
+  margin-top: 80px;
 }
 .main-content{
   background-color: black;
