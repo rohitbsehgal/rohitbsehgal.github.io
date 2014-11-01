@@ -130,9 +130,15 @@ a:hover{
   .main-content1{
   width: 105%;
 }
-.main-content{
-  width: 105%;
-}
+  .main-content{
+    width: 105%;
+  }
+  .rohit-sehgal{
+    display:none;
+  }
+  .header-black-background{
+    width: 104%;
+  }
 }
 @media only screen and (max-width:767px){
   .header-full{
@@ -143,7 +149,7 @@ a:hover{
     width: 25%;
   }
   .main-content1{
-    margin-top: 217px;
+    margin-top: 80px;
     width: 110%;
   }
   .main-content{
