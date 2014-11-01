@@ -136,6 +136,9 @@ a:hover{
   .rohit-sehgal{
     display:none;
   }
+  .width-overflow{
+    width: 0px;
+  }
   .header-black-background{
     width: 104%;
   }
@@ -150,10 +153,10 @@ a:hover{
   }
   .main-content1{
     margin-top: 80px;
-    width: 110%;
+    width: 100%;
   }
   .main-content{
-    width: 110%;
+    width: 100%;
   }
   a{
     margin: 0px;

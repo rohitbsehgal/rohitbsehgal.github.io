@@ -17,24 +17,65 @@
     <div class="row header-black-background">
       <div class="container">
         <div class="row">
-          <div class="col-xs-3">
+          <div class="col-xs-3 width-overflow">
             <h1 class="rohit-sehgal">
               Rohit Sehgal
             </h1>
           </div>
           <div class="col-xs-2">
             <div class="header-links-float">
-              <a class="header-a" href="#facebook"><img class="header-links" src="img/facebook.png"></a>
+              <a class="header-a" href="https://www.facebook.com/rohit.b.sehgal"><img class="header-links" src="img/facebook.png"></a>
             </div>
           </div>
           <div class="col-xs-2">
             <div class="header-links-float">
-              <a class="header-a" href="#facebook"><img class="header-links" src="img/instagram.png"></a>
+              <a class="header-a" href="http://instagram.com/rohitbsehgal"><img class="header-links" src="img/instagram.png"></a>
             </div>
           </div>
           <div class="col-xs-2">
             <div class="header-links-float">
               <a class="header-a" href="#facebook"><img class="header-links" src="img/gmail.png"></a>
+              <form name="contactform" method="post" action="send_form_email.php">
+                <table width="450px">
+                <tr>
+                 <td valign="top">
+                  <label for="first_name">First Name:</label>
+                 </td>
+                 <td valign="top">
+                  <input  type="text" name="first_name" maxlength="50" size="30">
+                 </td>
+                </tr>
+                <tr>
+                 <td valign="top">
+                  <label for="last_name">Last Name:</label>
+                 </td>
+                 <td valign="top">
+                  <input  type="text" name="last_name" maxlength="50" size="30">
+                </td>
+                </tr>
+                <tr>
+                 <td valign="top">
+                  <label for="email">Email Address:</label>
+                 </td>
+                 <td valign="top">
+                  <input  type="text" name="email" maxlength="80" size="30">
+                 </td>
+                </tr>
+                <tr>
+                 <td valign="top">
+                  <label for="comments">Email content:</label>
+                 </td>
+                 <td valign="top">
+                  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+                 </td>
+                </tr>
+                <tr>
+                 <td colspan="2" style="text-align:center">
+                  <input type="submit" value="Submit">
+                 </td>
+                </tr>
+                </table>
+                </form>
             </div>
           </div>
           <div class="col-xs-2">
