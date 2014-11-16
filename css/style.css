@@ -21,9 +21,6 @@ border-color: #727878;
 opacity: 0.2;
 }
 .border-left{
-  height: 100px;
-  border-left: 1px solid;
-  border-color: #727878;
 }
 h3{
   font-size: 24px;
@@ -116,9 +113,8 @@ h3{
 .footer-text{
   margin-left:5%;
 }
-@media screen and (min-width: 700px;) {
-  .events{
-    margin-left:-15px;
+@media (max-width: 600px;) {
+  .border-left{
+    margin-bottom: 50px;
   }
-
 }
