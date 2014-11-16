@@ -1,164 +1,118 @@
-.header-black-background{
-  background-color:black;
-  height: 75px;
-  width:102%;
-  position: fixed;
-  z-index: 1;
-}
-.rohit-sehgal{
-  color: white;
-  font-size: 25px;
-  font-weight: 100;
-  letter-spacing: 2px;
+body{
   margin: 0px;
-  margin-top: 25px;
+  background-color: white;
 }
-.header-a{
-  margin: 30px;
-}
-.header-links{
-  width: 55px;
-  margin-top: 10px;
-}
-.header-links-github{
-  width: 65px;
-  margin-top: 5px;
-}
-.header-links-float{
-  float: right;
-}
-//////////END HEADER//////////
-.invisible{
-  display:none;
-}
-p{
-  font-size: 100px;
+a{
+  text-decoration: none;
+  color: white;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: underline;
 }
-.cl-effect-21{
-  color:white;
-  float: right;
+h2{
+  font-weight: 300;
+  color: #22A39F;
+  text-align:center;
+  font-size: 45px;
 }
-.profile-content{
-  margin-top: 80px;
+hr {
+margin: 40px 0px;
+border-color: #727878;
+opacity: 0.2;
 }
-.main-content1{
-  background-color: black;
-  z-index: 10;
-  margin-top: 80px;
+.border-left{
+  height: 100px;
+  border-left: 1px solid;
+  border-color: #727878;
 }
-.main-content{
-  background-color: black;
-  z-index: 10;
+h3{
+  font-size: 24px;
+  color: #22A39F;
+  opacity: 1;
+  text-align: center;
 }
-.main-content-row{
-  background-color: black;
-  height: 100%;
-}
-.content-links > a{
-  font-family: "Open Sans", sans-serif;
-  font-weight: 100;
-  font-size: 30px;
-  color: rgba(255,255,255,0.9);
-  width: 100%;
-  transition: 0.5s;
-}
-.content-links > a:hover{
-  transition: 0.5s;
-  color: red;
-}
-.content-headers{
-  color: red;
-  border-bottom: 2px solid white;
-  width:100%;
-  font-weight: 100;
-  font-size: 35px;
-  letter-spacing: 1px;
-}
-.form-headings{
-  color: white;
-  font-size: 20px;
-  font-weight: 100;
+.header-links-content{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
   font-size: 25px;
-  letter-spacing: 1px;
-}
-.form-responses{
-  color: white;
-  font-size: 15px;
   font-weight: 100;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  text-align: center;
+}
+.header{
+  position: fixed;
+  top: 0px;
+  height: 415px;
+  width: 100%;
+  z-index: -1;
+  background-color: black;
+  color: white;
+}
+.content{
+  background: #F3EFE0;
+}
+.content-text{
+  font-size: 15px;
+}
+.header-text{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 45px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin:0px;
+  padding-top: 150px;
+  text-align: center;
+}
+.header-links{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  text-align: center;
+}
+.header-link{
+  margin-left:10px;
+}
+#example-basic1{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  display:none;
+}
+#example-basic{
+  width: 100%;
+  background-color: white;
+  margin-top: 415px;
+  height: 2px;
+}
+.name{
+  color: white;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+.header-links-small{
+  font-family: 'Open Sans', sans-serif;
+  color: white;
   font-size: 20px;
-  letter-spacing: 1px;
+  font-weight: 100;
+  letter-spacing: 3px;
+  margin-right: 15px;
+  text-align: right;
 }
-.line-height{
-  line-height: 20px;
-}
-.profile-picture{
-  border: 4px solid white;
-  width: 70%;
+.instagram{
+  margin-left: 75px;
 }
 .footer{
-  margin-top: 5px;
   background-color: black;
-  height: 50px;
+  bottom:0px;
+  color: white;
 }
 .footer-text{
-  text-align: right;
-  margin-top: 20px;
-  color: white;
-  font-size: 10px;
-  font-family: "Open Sans", sans-serif;
-}
-@media only screen and (max-width:671px){
-  .main-content1{
-    margin-top: 217px;
-  }
-  .header-full{
-    width:104%;
-  }
-  .header-logo{
-    font-size: 20px;
-  }
-  .cl-effect-21{
-    font-size: 12px;
-  }
-  .profile-picture{
-    border: 4px solid white;
-    width: 25%;
-  }
-  .main-content1{
-  width: 105%;
-}
-  .main-content{
-    width: 105%;
-  }
-  .rohit-sehgal{
-    display:none;
-  }
-  .width-overflow{
-    width: 0px;
-  }
-  .header-black-background{
-    width: 104%;
-  }
-}
-@media only screen and (max-width:767px){
-  .header-full{
-    position: absolute;
-  }
-  .profile-picture{
-    border: 4px solid white;
-    width: 25%;
-  }
-  .main-content1{
-    margin-top: 80px;
-    width: 110%;
-  }
-  .main-content{
-    width: 110%;
-  }
-  a{
-    margin: 0px;
-  }
+  margin-left:5%;
 }
