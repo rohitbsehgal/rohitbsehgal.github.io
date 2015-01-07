@@ -105,6 +105,9 @@ ul > li:last-child{
   margin-top: 20px;
   text-align: center;
 }
+.header-links-fixed{
+  margin-top: 18%;
+}
 .header-link{
   padding-left:30px;
 }
