@@ -16,6 +16,8 @@ video{
 	background-color: rgba(0,0,0,0.5);
 }
 .h1{
+	width: 100%;
+	text-align: center;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
@@ -24,6 +26,8 @@ video{
 	font-size: 3.75;
 }
 .h2{
+	width: 100%;
+	text-align: center;
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 100;
