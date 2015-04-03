@@ -68,3 +68,12 @@ ul li{
 	display: inline;
 }
 button:focus {outline:0;}
+.blogh1{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin-bottom:0px;
+	margin-top: 20%;
+	font-size: 3.75em;
+}
