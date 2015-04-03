@@ -100,3 +100,6 @@ button:focus {outline:0;}
 	font-size: 1.75em;
 	text-decoration: none;
 }
+.blogul > li{
+	width: 100%;
+}
