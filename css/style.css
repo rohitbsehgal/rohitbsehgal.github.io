@@ -82,3 +82,21 @@ button:focus {outline:0;}
 	font-weight: 100;
 	font-style: italic;
 }
+.blogh2{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-style: italic;
+	margin-top:0px;
+	font-size: 2.75em;
+}
+.bloga{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-style: italic;
+	margin-top:0px;
+	font-size: 1.75em;
+}
