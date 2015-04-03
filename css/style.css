@@ -102,4 +102,5 @@ button:focus {outline:0;}
 }
 .blogul > li{
 	width: 100%;
+	display: block;
 }
