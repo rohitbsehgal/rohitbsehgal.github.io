@@ -98,4 +98,5 @@ button:focus {outline:0;}
 	font-weight: 100;
 	margin-top:0px;
 	font-size: 1.75em;
+	text-decoration: none;
 }
