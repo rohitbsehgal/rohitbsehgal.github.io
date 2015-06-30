@@ -47,6 +47,7 @@ ul{
 	font-style: italic;
 	margin-top:0px;
 }
+<<<<<<< HEAD
 .your-class{
 	width: 500px;
 }
@@ -144,4 +145,75 @@ ul{
 .border-right-content-ul{
 	width: 32%;
 	margin-left: 62%;
+=======
+ul{
+	padding-left: 0px;
+}
+.blog-content-slider{
+	width: 100%;
+	text-align: center;
+}
+.slick-dots > li{	
+	list-style-type: none;
+	width: 12px;
+	margin-left: 5px;
+}
+.slick-dots > li > button{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	border: none;
+	color: rgba(0,0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+.slick-dots > li > button:hover{
+	background-color: rgba(0,0,0,0.6);
+	width: 12px;
+	height: 12px;
+}
+.slick-dots > .slick-active > button{
+	background-color: rgba(0,0,0,0.6);
+	width: 12px;
+	height: 12px;
+}
+ul li{
+	display: inline;
+}
+button:focus {outline:0;}
+.blogh1{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-size: 3.75em;
+}
+.blogp{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-style: italic;
+}
+.blogh2{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	font-style: italic;
+	margin-top:0px;
+	font-size: 2.75em;
+}
+.bloga{
+	width: 100%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin-top:0px;
+	font-size: 1.75em;
+	text-decoration: none;
+}
+.blogul > li{
+	width: 100%;
+	display: block;
+>>>>>>> 4dff82016c8c23172b9cbc8e37142ff05b2dd706
 }
