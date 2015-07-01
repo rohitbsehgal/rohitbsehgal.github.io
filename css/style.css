@@ -84,7 +84,9 @@ ul{
 	height:75px;
 	border: 2px solid #365C5A;
 	border-radius: 50%;
-	margin-left: 39%;;
+	display: block;
+  margin-left: auto;
+  margin-right: auto
 }
 .part-text{
 	width:118%;
@@ -215,4 +217,15 @@ button:focus {outline:0;}
 }
 .col-md-4-aib > ul > li{
 	width: 100%;
+}
+.round-hackathons{
+	width:118%;
+}
+@media screen and (max-width: 780px) {
+	.border-left-content{
+		border-left: 0px solid black;
+	}
+	.border-right-content{
+		border-left: 0px solid black;
+	}
 }
