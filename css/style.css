@@ -47,7 +47,6 @@ ul{
 	font-style: italic;
 	margin-top:0px;
 }
-<<<<<<< HEAD
 .your-class{
 	width: 500px;
 }
@@ -81,8 +80,15 @@ ul{
 	border-radius: 50%;
 	margin-left: 45%;;
 }
+.round-content-hackathons{
+	width:75px;
+	height:75px;
+	border: 2px solid #365C5A;
+	border-radius: 50%;
+	margin-left: 39%;;
+}
 .part-text{
-	width:109%;
+	width:118%;
 	text-align: center;
 	margin: 0px;
 }
@@ -103,21 +109,6 @@ ul{
 }
 .body-h2{
 	font-size: 35px;
-}
-.hackillinois{
-	margin-left: 23%;
-}
-.wildhacks{
-	margin-left:29%;
-}
-.hackmizzou{
-	margin-left: 23%;
-}
-.hackisu{
-	margin-left: 38%;
-}
-.codeday{
-	margin-left:38%;
 }
 .round-content-wildhacks{
 	width:66px;
@@ -145,7 +136,7 @@ ul{
 .border-right-content-ul{
 	width: 32%;
 	margin-left: 62%;
-=======
+}
 ul{
 	padding-left: 0px;
 }
@@ -153,7 +144,7 @@ ul{
 	width: 100%;
 	text-align: center;
 }
-.slick-dots > li{	
+.slick-dots > li{
 	list-style-type: none;
 	width: 12px;
 	margin-left: 5px;
@@ -175,9 +166,6 @@ ul{
 	background-color: rgba(0,0,0,0.6);
 	width: 12px;
 	height: 12px;
-}
-ul li{
-	display: inline;
 }
 button:focus {outline:0;}
 .blogh1{
@@ -215,5 +203,14 @@ button:focus {outline:0;}
 .blogul > li{
 	width: 100%;
 	display: block;
->>>>>>> 4dff82016c8c23172b9cbc8e37142ff05b2dd706
+}
+.hackathons{
+	font-size: 20px;
+	color: white;
+}
+.hackathon-winner{
+	color: #FFD700;
+	font-size: 15px;
+	width: 118%;
+	text-align: center;
 }
