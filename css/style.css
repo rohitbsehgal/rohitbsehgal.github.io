@@ -231,7 +231,7 @@ button:focus {outline:0;}
 		border-left: 0px solid black;
 	}
 	.body-content{
-		margin-left:7%;
+
 	}
 	.round-hackathons {
   	width: 100%;
@@ -250,5 +250,8 @@ button:focus {outline:0;}
 	}
 	.resume-link{
 		margin-left:38%;
+	}
+	.border-right-content{
+		border-right: 0px solid black;
 	}
 }
