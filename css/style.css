@@ -77,7 +77,9 @@ ul{
 	height:75px;
 	border: 2px solid #365C5A;
 	border-radius: 50%;
-	margin-left: 45%;;
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
 }
 .round-content-hackathons{
 	width:75px;
@@ -86,7 +88,7 @@ ul{
 	border-radius: 50%;
 	display: block;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
 }
 .part-text{
 	width:118%;
@@ -236,5 +238,17 @@ button:focus {outline:0;}
 	}
 	.part-text {
 	  width: 100%;
+	}
+	.hackathon-winner{
+		width:100%;
+	}
+	.github-link{
+		margin-left:39%;
+	}
+	.email-link{
+		margin-left:36%;
+	}
+	.resume-link{
+		margin-left:38%;
 	}
 }
