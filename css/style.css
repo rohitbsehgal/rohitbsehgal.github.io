@@ -228,4 +228,7 @@ button:focus {outline:0;}
 	.border-right-content{
 		border-left: 0px solid black;
 	}
+	.body-content{
+		margin-left:10%;
+	}
 }
